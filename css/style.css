@@ -1,0 +1,123 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+body{
+    box-sizing: border-box;
+}
+.flex{
+    display: flex;
+    gap: 10px;
+}
+.justify-content-end{
+    justify-content: space-between;
+}
+.justify-content-around{
+    justify-content: space-around;
+}
+.align-items-center{
+    align-items: center;
+}
+        /* header area start here  */
+        .header-area{
+            padding-left: 80px;
+        }
+        .header-area h1{
+            color: red;
+        }
+        .logo a{
+            font-size: 36px;
+            text-decoration: none;
+        }
+        
+        .manu ul li{
+            display: inline-block;
+            list-style: none;
+        }
+        .manu ul li a{
+            display: block;
+            padding: 5px 10px;
+            text-decoration: none;
+            color: blue;
+        }
+        .manu ul li a:hover{
+            color: red;
+        }
+        
+                 /* header end here  */
+
+.calculator-area{
+    min-height: 85vh;
+    background: #efeff2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calculator{
+    width: 300px;
+    height: 530px;
+    box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.3);
+    border-radius: 12px;
+    background: #22252D;
+    overflow: hidden;
+}
+form input{
+    width: 100%;
+    height: 150px;
+    border: none;
+    font-size: 2rem;
+    padding: 1rem 0;
+    color: #fff;
+    background: #000;
+    text-align: right;
+    pointer-events: none;
+}
+
+.buttons{
+    /* display: flex;
+    flex-wrap: wrap; */
+    justify-content: space-between;
+    padding: 20px;
+}
+button{
+    width: 52px;
+    height: 52px;
+    font-size: 22px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    flex: 0 0 22%;
+    margin: 5px 5px;
+    border: 1px solid #000;
+}
+.btn-yellow{
+    background: rgb(245, 146, 62);
+    color: #fff;
+}
+.btn-grey{
+    background: rgb(224, 224, 224);
+}
+.btn-equal{
+    background: green;
+}
+.btn-clear{
+    background: red;
+}
+
+
+            /* Footer style  */
+
+footer{
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: #000;
+    font-weight: 700;
+    color: #fff;
+    background-color: #575fcf;
+}
+footer div a i{
+    padding: 5px 6px;
+    background: #fff;
+    border-radius: 50%;
+    text-decoration: none;
+}
